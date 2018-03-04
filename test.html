@@ -1,0 +1,133 @@
+﻿<!DOCTYPE = HTML>
+
+<html>
+
+<head>
+<title> Microsoft </title>  
+<meta charset="utf-8">
+</style>
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
+<style type="text/css">
+body {
+	background-color:#558C89;
+	background-image: url("../figuras/fondo.jpg" );
+	background-repeat: no-repeat, repeat;
+	background-size: cover;
+	margin-left:120pt;
+	margin-right:120pt;
+	font-family:"Quicksand", sans-serif;
+}
+
+h3 {color:#1a4c6b; font-size:22pt; font-family:"Quicksand", sans-serif;}
+h4 {color:#263533; font-family:"Quicksand", sans-serif;}
+p {color:#442a2d; font-size:19pt; font-family:"Quicksand", sans-serif;}
+
+mark {
+    color: white;
+    background-color:rgba(0, 0 ,0, 0.56)
+}
+
+.esquinad {
+  position:absolute;
+  margin-top: -65px;
+  margin-right: 65px;
+  height: 75px;
+  width: 75px;
+  background-color: #555;
+  border-radius: 35%;
+}
+/* Estilo de los botones */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 14px;
+    font-size: 22px;
+    width: 25%;
+}
+
+/* Cambiamos el color de los botones cuando pasamos el raton por encima */
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Estilos predeterminados para el contenido */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Estilo personalizado para cada contenido */
+#historia {background-color:#ECECEA;}
+#logros {background-color:#ECECEA;}
+#creditos {background-color:#ECECEA;}
+#actualidad {background-color:#ECECEA;}
+</style>
+</head>
+
+<body>
+
+<h1></h1>
+<h1 style = "text-align:center; font-size:48pt;"> <mark>Microsoft</mark> </h1>
+
+<!-- Cortesia de W3SChools, hacemos el header para los menus -->
+<div>
+<button class="tablink" onclick="openCity('historia', this, '#D9853B')" id="defaultOpen">Historia</button> <!-- El color es usado para los botones TRAS hacer click en ellos. -->
+<button class="tablink" onclick="openCity('logros', this, '#D9853B')">Logros</button>
+<button class="tablink" onclick="openCity('actualidad', this, '#D9853B')">Actualidad</button> 
+<button class="tablink" onclick="openCity('creditos', this, '#D9853B')">Créditos</button> 
+
+ <div id="historia" class="tabcontent">
+  <h3>Historia</h3>
+  <img src="figuras/logoantiguo.png" width="450" height="180" style="text-align: center;" ></img>
+  <p>La historia de Microsoft.</p>
+</div>
+
+<div id="logros" class="tabcontent">
+  <h3>Logros</h3>
+  <img src="figuras/windowslogo.png" width="175" height="175" style="text-align: center;" ></img>
+  <p>Logros alcanzados por Microsoft.</p>
+</div>
+
+
+<div id="actualidad" class="tabcontent">
+  <h3>Actualidad</h3>
+  <img src="figuras/logoahora.png" width="450" height="100" style="text-align: center;" ></img>
+  <p>Donde se encuentra Microsoft ahora.</p>
+</div>
+
+<div id="creditos" class="tabcontent">
+  <h3>Créditos</h3>
+  <p>Bibliografía.</p>
+</div>
+
+
+<script>
+function openCity(cityName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(cityName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+
+}
+// Abre el elemento con clase defaultOpen, en este caso historia
+document.getElementById("defaultOpen").click();
+</script>
+</div>
+
+</body>
+
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE = HTML>
+
+<html>
+
+<head>
+<title> Microsoft </title>  
+<meta charset="utf-8">
+</style>
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand&amp;subset=latin-ext" rel="stylesheet"> 
+<style type="text/css">
+body {
+    font-family:"Quicksand", sans-serif;
+}
+</style>
+</head>
+
+<body>
+
+
+<h1 style = "text-align:center;"> <mark>Microsoft</mark> </h1>
+
+<table style="background-color:rgba(0, 0 , 0, 0.56)" border="0" cellpadding="2" align="center">
+
+<td>
+<p style=center><a href="html/pagina1.html"><img src="figuras/condor.jpg" width="200" height="150"></a><figcaption style="text-align:center;color:white">Cóndor Andino</figcaption></p>
+</td>
+<td>
+<p style=center><a href="html/pagina2.html"><img src="figuras/vizcacha.png" width="200" height="150"></a><figcaption style="text-align:center;color:white">Vizcacha</figcaption></p>
+</td>
+<td>
+<p style=center><a href="html/pagina3.html"><img src="figuras/puma.jpg" width="200" height="150"></a><figcaption style="text-align:center;color:white">Puma</figcaption></p>
+</td>
+
+</tr>
+
+<td>
+<p style=center><a href="html/pagina4.html"><img src="figuras/llama.jpg" width="200" height="150"></a><figcaption style="text-align:center;color:white">Llama</figcaption></p>
+</td>
+<td>
+<p style=center><a href="html/pagina5.html"><img src="figuras/vicuna.jpeg" width="200" height="150"></a><figcaption style="text-align:center;color:white">Vicuña</figcaption></p>
+</td>
+<td>
+<p style=center><a href="html/pagina6.html"><img src="figuras/osodeanteojos.jpg" width="200" height="150"></a><figcaption style="text-align:center;color:white">Oso de anteojos</figcaption></p>
+</td>
+
+</table>
+
+</body>
+
+
+</html>
