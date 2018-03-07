@@ -124,11 +124,11 @@ mark {
   <input class="spoilerbutton" type="button" value="Mostrar" onclick="this.value=this.value=='Mostrar'?'Ocultar':'Mostrar';">
   <div style = "text-align:center;" class="spoiler"><div>
   <p>11 de abril de 1978</p><p>Se anuncia Microsoft COBOL-80, que cumple con los estándares ANSI de 1974 para los sistemas de microprocesador 8080, Z80 y 8085.</p>
-  <p>1 de noviembre de 1978</p><p>Microsoft establece su primera oficina internacional de ventas en Japón, ASCII Microsoft.</p>
-  <p>6 de noviembre de 1978</p><p>Microsoft anuncia la disponibilidad de Microsoft EDIT-80, un editor de texto orientado a la línea de acceso aleatorio para los sistemas 8080 y Z-80. EDIT-80 es el primer editor de microordenador con acceso de línea aleatorio a los archivos de disquete.</p>
-  <p>1 de diciembre de 1978</p><p>Microsoft anuncia Microsoft Macro-80 para 8080; Z-80. El ensamblador 14K es el macroensamblador más rápido actualmente en el mercado de microcomputadoras, ensamblando más de 1000 líneas por minuto.</p>
-  <p>1 de diciembre de 1978</p><p>Microsoft anuncia la disponibilidad del compilador FORTRAN-80 de Microsoft para TRS-80.</p>
-  <p>31 de diciembre de 1978</p><p>Las ventas de fin de año de Microsoft superan $ 1 millón a $ 1,355,655. Hay 13 empleados.</p>
+  <p>1 de noviembre de 1978</p><p>Bill Gates y Paul Allen completan Altair BASIC y lo venden al primer cliente de Microsoft, MITS de Albuquerque, Nuevo México. Este es el primer programa de lenguaje de computadora para una computadora personal.</p>
+  <p>6 de noviembre de 1978</p><p>Paul Allen se une a MITS como director de software.</p>
+  <p>1 de diciembre de 1978</p><p>"Altair BASIC - Up and Running", declara el titular de la primera edición de MITS Computer Notes.</p>
+  <p>1 de diciembre de 1978</p><p>El BASIC de Bill Gates y Paul Allen oficialmente se comerciacializa como versión 2.0 en ediciones 4K y 8K.</p>
+  <p>31 de diciembre de 1978</p><p>Paul Allen y Bill Gates firman un acuerdo de licencia con MITS con respecto al Basic Interpreter. El nombre Microsoft aún no se ha elegido, y Microsoft aún no es una asociación oficial.</p>
   </div></div>
   <h5></h5>
 </div>
